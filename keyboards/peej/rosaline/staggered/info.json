@@ -1,13 +1,7 @@
 {
-    "keyboard_name": "Rosaline Staggered",
-    "manufacturer": "Peej",
+    "keyboard_name": "Rosaline",
     "url": "https://github.com/peej/rosaline-keyboard",
     "maintainer": "Peej",
-    "usb": {
-        "vid": "0x706A",
-        "pid": "0x0003",
-        "device_version": "0.0.1"
-    },
     "layout_aliases": {
         "LAYOUT_staggered_40": "LAYOUT_all"
     },
