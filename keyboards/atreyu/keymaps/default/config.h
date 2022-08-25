@@ -17,6 +17,7 @@
 #pragma once
 
 #include "config_common.h"
+<<<<<<<< HEAD:keyboards/atreyu/keymaps/default/config.h
 
 // place overrides here
 #ifdef TAPPING_TERM
@@ -25,3 +26,5 @@
 #endif
 
 #define RETRO_TAPPING
+========
+>>>>>>>> effab3959f (Merge branch 'master' of https://github.com/mechlovin/qmk_firmware):keyboards/durgod/k3x0/k320/base/config.h
