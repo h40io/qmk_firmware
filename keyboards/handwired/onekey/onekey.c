@@ -1,7 +1,7 @@
 // Copyright 2022 QMK
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include "quantum.h"
+#include "onekey.h"
 
 void keyboard_post_init_kb(void) {
     debug_enable   = true;

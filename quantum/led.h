@@ -65,6 +65,9 @@ void led_update_ports(led_t led_state);
 uint32_t last_led_activity_time(void);    // Timestamp of the LED activity
 uint32_t last_led_activity_elapsed(void); // Number of milliseconds since the last LED activity
 
+uint32_t last_led_activity_time(void);    // Timestamp of the LED activity
+uint32_t last_led_activity_elapsed(void); // Number of milliseconds since the last LED activity
+
 #ifdef __cplusplus
 }
 #endif

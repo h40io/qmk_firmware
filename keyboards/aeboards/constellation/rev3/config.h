@@ -1,5 +1,4 @@
 /* Copyright 2018 Jason Williams (Wilba)
- * Copyright 2021 Harrison Chan (Xelus)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,12 +19,12 @@
 #include "config_common.h"
 
 /* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 15
+#define MATRIX_ROWS 10
+#define MATRIX_COLS 10
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { B0, B1, F0, F1, F4 }
-#define MATRIX_COL_PINS { E6, D5, B2, B3, D3, F6, F7, C7, C6, B6, B5, B4, D7, D6, D4 }
+#define MATRIX_ROW_PINS { C6, C7, B5, B6, D7, B4, D4, D6, B7, E6 }
+#define MATRIX_COL_PINS { B2, B3, B1, B0, F7, F0, F1, F4, F5, F6 }
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW

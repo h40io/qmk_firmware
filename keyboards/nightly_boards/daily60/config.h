@@ -1,5 +1,5 @@
 /*
-Copyright 2022 DeskDaily
+Copyright 2012 Jun Wako <wakojun@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -14,15 +14,23 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
 #pragma once
 
 #include "config_common.h"
 
 /* key matrix size */
 #define MATRIX_ROWS 5
-#define MATRIX_COLS 14
+#define MATRIX_COLS 13
+#define DEBOUNCE 10
+/* layer optimization */
+#define LAYER_STATE_8BIT
+#define MAX_LAYER 2
 
+//debug scanrate
+//#define DEBUG_MATRIX_SCAN_RATE
+//debug scans taking longer than one ms
+//#define BENCHMARK_MATRIX
+#define MATRIX_IO_DELAY 15
 /*
  * Keyboard Matrix Assignments
  *
@@ -32,20 +40,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
- */
-#define MATRIX_ROW_PINS { GP23, GP24, GP20, GP19, GP18 }
-#define MATRIX_COL_PINS { GP22, GP0, GP1, GP2, GP5, GP7, GP8, GP9, GP10, GP11, GP12, GP13, GP14, GP15 }
+*/
+#define MATRIX_ROW_PINS { D3, D2, D1, D0, D4 }
+#define MATRIX_COL_PINS { C6, D7, E6, B4, B5, B6, B2, B3, B1, F7, F6, F5, F4 }
 
-/* COL2ROW, ROW2COL*/
+/* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
-
-/* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
-
-/* define if matrix has ghost (lacks anti-ghosting diodes) */
-//#define MATRIX_HAS_GHOST
-
-/* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-#define LOCKING_SUPPORT_ENABLE
-/* Locking resynchronize hack */
-#define LOCKING_RESYNC_ENABLE
