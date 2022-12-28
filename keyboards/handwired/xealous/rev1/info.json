@@ -1,5 +1,4 @@
 {
-<<<<<<<< HEAD:keyboards/handwired/xealous/rev1/info.json
   "keyboard_name": "XeaL60",
   "manufacturer": "XeaLouS",
   "url": "",
@@ -8,16 +7,6 @@
     "vid": "0x4131",
     "pid": "0x5141",
     "device_version": "0.0.1"
-========
-  "keyboard_name": "XeaLous Brown Keyboard",
-  "manufacturer": "XeaL",
-  "url": "",
-  "maintainer": "qmk",
-  "usb": {
-    "vid": "0xFEED",
-    "pid": "0x606A",
-    "device_version": "0.0.2"
->>>>>>>> effab3959f (Merge branch 'master' of https://github.com/mechlovin/qmk_firmware):keyboards/handwired/xealousbrown/info.json
   },
   "layouts": {
     "LAYOUT": {

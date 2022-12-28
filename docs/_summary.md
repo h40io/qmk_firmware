@@ -76,13 +76,16 @@
 
   * Software Features
     * [Auto Shift](feature_auto_shift.md)
+    * [Autocorrect](feature_autocorrect.md)
     * [Caps Word](feature_caps_word.md)
     * [Combos](feature_combo.md)
     * [Debounce API](feature_debounce_type.md)
+    * [EEPROM](feature_eeprom.md)
     * [Key Lock](feature_key_lock.md)
     * [Key Overrides](feature_key_overrides.md)
     * [Layers](feature_layers.md)
     * [One Shot Keys](one_shot_keys.md)
+    * [OS Detection](feature_os_detection.md)
     * [Raw HID](feature_rawhid.md)
     * [Secure](feature_secure.md)
     * [Send String](feature_send_string.md)
@@ -97,6 +100,7 @@
   * Hardware Features
     * Displays
       * [Quantum Painter](quantum_painter.md)
+        * [Quantum Painter LVGL Integration](quantum_painter_lvgl.md)
       * [HD44780 LCD Driver](feature_hd44780.md)
       * [ST7565 LCD Driver](feature_st7565.md)
       * [OLED Driver](feature_oled_driver.md)
@@ -121,7 +125,6 @@
     * [PS/2 Mouse](feature_ps2_mouse.md)
     * [Split Keyboard](feature_split_keyboard.md)
     * [Stenography](feature_stenography.md)
-    * [Thermal Printer](feature_thermal_printer.md)
     * [Velocikey](feature_velocikey.md)
 
   * Keyboard Building
@@ -135,7 +138,7 @@
   * Breaking Changes
     * [Overview](breaking_changes.md)
     * [My Pull Request Was Flagged](breaking_changes_instructions.md)
-    * [Most Recent ChangeLog](ChangeLog/20220827.md "QMK v0.18.0 - 2022 Aug 27")
+    * [Most Recent ChangeLog](ChangeLog/20221126.md "QMK v0.19.0 - 2022 Nov 26")
     * [Past Breaking Changes](breaking_changes_history.md)
 
   * C Development
@@ -170,7 +173,7 @@
       * [Early initialization](platformdev_chibios_earlyinit.md)
       * [Raspberry Pi RP2040](platformdev_rp2040.md)
       * [Proton C](platformdev_proton_c.md)
-      * [WeAct Blackpill F411](platformdev_blackpill_f411.md)
+      * [WeAct Blackpill F4x1](platformdev_blackpill_f4x1.md)
 
   * QMK Reference
     * [Contributing to QMK](contributing.md)

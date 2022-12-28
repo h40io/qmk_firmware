@@ -22,19 +22,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 15
 
-<<<<<<<< HEAD:keyboards/soda/cherish/config.h
 #define MATRIX_COL_PINS { B12, B13, B14, B15, A8, A9, A10, A14, A15, B3, B4, B5, B6, B7, B8}
 #define MATRIX_ROW_PINS { A7, B0, B1, B2, B10, B11 }
-========
-// ROWS: Top to bottom, COLS: Left to right
-
-#define MATRIX_ROW_PINS { D0, D1, D2, D3, D5 }
-#define MATRIX_COL_PINS { F0, F1, E6, C7, C6, B7, D4, B1, B0, B5, B4, D7, D6, B3 }
-
-#define BACKLIGHT_PIN B6
-
-/* COL2ROW or ROW2COL */
->>>>>>>> f3162304dd (Merge branch 'master' of https://github.com/mechlovin/qmk_firmware):keyboards/gh60/satan/keymaps/admiralStrokers/config.h
 #define DIODE_DIRECTION COL2ROW
 
 //#define BACKLIGHT_PIN           A6

@@ -16,13 +16,8 @@
  
 #pragma once
 
-<<<<<<<< HEAD:keyboards/soda/cherish/mcuconf.h
 #include_next <mcuconf.h>
 
 #undef STM32_I2C_USE_DMA
 #define STM32_I2C_USE_DMA FALSE
 
-========
-// Enable RGB Matrix
-#define VIA_QMK_RGBLIGHT_ENABLE
->>>>>>>> f3162304dd (Merge branch 'master' of https://github.com/mechlovin/qmk_firmware):keyboards/xelus/la_plus/keymaps/via/config.h

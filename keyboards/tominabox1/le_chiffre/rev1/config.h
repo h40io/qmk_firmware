@@ -17,7 +17,6 @@
 
 #include "config_common.h"
 
-<<<<<<<< HEAD:keyboards/tominabox1/le_chiffre/rev1/config.h
 /*
  * Keyboard Matrix Assignments
  *
@@ -34,10 +33,6 @@
 /* Define encoder pads */
 #define ENCODERS_PAD_A { D5 }
 #define ENCODERS_PAD_B { D3 }
-========
-/* key matrix size (cols in generic keyboard config) */
-#define MATRIX_ROWS 8
->>>>>>>> effab3959f (Merge branch 'master' of https://github.com/mechlovin/qmk_firmware):keyboards/durgod/k3x0/k310/config.h
 
 /*
  * WS2812 Underglow Matrix options
