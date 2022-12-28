@@ -198,12 +198,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 //    }
 //}
 //
-// bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
-//    if (keycode == ALT_T(KC_A) || keycode == SH_BKSP) {
-//        return false;
-//    }
+// bool get_ignore_mod_tap_interrupt(uint16_t keycode, keyrecord_t *record) {
 //    switch (keycode) {
-//        case QK_MOD_TAP ... QK_MOD_TAP_MAX:
+//        case ALT_T(KC_A):
+//        case SH_BKSP:
 //            return true;
 //        default:
 //            return false;

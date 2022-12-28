@@ -30,7 +30,7 @@ enum {
 };
   
 // Tap Dance Definition
-tap_dance_action_t tap_dance_actions[] = {
+qk_tap_dance_action_t tap_dance_actions[] = {
   //Tap once for minus, tap twice for divide
   [TD_M_D] = ACTION_TAP_DANCE_DOUBLE(KC_PMNS, KC_PSLS),
   //Tap once for plus, tap twice for multiply

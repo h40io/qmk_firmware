@@ -36,7 +36,7 @@ enum custom_keycodes {
 enum {
     TD_S
 };
-tap_dance_action_t tap_dance_actions[] = {
+qk_tap_dance_action_t tap_dance_actions[] = {
     [TD_S] = ACTION_TAP_DANCE_DOUBLE(KC_S, KC_Z),
 };
 

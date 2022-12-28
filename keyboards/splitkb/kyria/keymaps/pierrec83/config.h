@@ -44,7 +44,7 @@
 #define TAPPING_TERM 200
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
-#define QUICK_TAP_TERM 0
+#define TAPPING_FORCE_HOLD
 // Allows to use either side as the master. Look at the documentation for info:
 // https://docs.qmk.fm/#/config_options?id=setting-handedness
 #define EE_HANDS

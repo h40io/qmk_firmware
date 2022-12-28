@@ -112,7 +112,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______,_______,_______,                        _______,                        _______,_______,_______,_______,  _______,_______,_______),
 };
 
-tap_dance_action_t tap_dance_actions[] = {
+qk_tap_dance_action_t tap_dance_actions[] = {
   /* Tap once: nothing. Tap twice: Alt+F4 */
   [AF4]  = ACTION_TAP_DANCE_DOUBLE(XXXXXXX,A(F4)),
 };

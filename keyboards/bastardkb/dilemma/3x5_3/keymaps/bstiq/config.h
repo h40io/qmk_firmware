@@ -37,7 +37,7 @@
  * Enable rapid switch from tap to hold.  Disable auto-repeat when pressing key
  * twice, except for one-shot keys.
  */
-#define QUICK_TAP_TERM 0
+#define TAPPING_FORCE_HOLD
 
 /*
  * Tap-or-Hold decision modes.

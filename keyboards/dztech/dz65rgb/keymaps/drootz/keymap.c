@@ -708,11 +708,11 @@ void matrix_scan_user(void)
     }
 }
 
-void leader_start_user(void) {
+void leader_start(void) {
     isLeader = true;
 }
 
-void leader_end_user(void) {
+void leader_end(void) {
     isLeader = false;
 }
 

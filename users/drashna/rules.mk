@@ -138,7 +138,3 @@ ifeq ($(strip $(CUSTOM_BOOTMAGIC_ENABLE)), yes)
         SRC += bootmagic_better.c
     endif
 endif
-
-ifeq ($(strip $(BOOTMAGIC_ENABLE)), yes)
-    SRC += bootmagic_better.c
-endif

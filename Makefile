@@ -402,7 +402,6 @@ ifndef SKIP_GIT
 	if [ ! -e lib/vusb ]; then git submodule sync lib/vusb && git submodule update --depth 50 --init lib/vusb; fi
 	if [ ! -e lib/printf ]; then git submodule sync lib/printf && git submodule update --depth 50 --init lib/printf; fi
 	if [ ! -e lib/pico-sdk ]; then git submodule sync lib/pico-sdk && git submodule update --depth 50 --init lib/pico-sdk; fi
-	if [ ! -e lib/lvgl ]; then git submodule sync lib/lvgl && git submodule update --depth 50 --init lib/lvgl; fi
 	git submodule status --recursive 2>/dev/null | \
 	while IFS= read -r x; do \
 		case "$$x" in \
@@ -433,7 +432,6 @@ git-submodule:
 	[ -e lib/ugfx ] && rm -rf lib/ugfx || true
 	[ -e lib/pico-sdk ] && rm -rf lib/pico-sdk || true
 	[ -e lib/chibios-contrib/ext/mcux-sdk ] && rm -rf lib/chibios-contrib/ext/mcux-sdk || true
-	[ -e lib/lvgl ] && rm -rf lib/lvgl || true
 	git submodule sync --recursive
 	git submodule update --init --recursive --progress
 
