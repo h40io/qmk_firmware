@@ -81,16 +81,6 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     return true;
 }
 
-
-#if defined(ENCODER_MAP_ENABLE)
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] =   {ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},
-    [1] =   {ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},
-    [2] =   {ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},
-    [3] =   {ENCODER_CCW_CW(KC_VOLD, KC_VOLU)}
-};
-#endif
-
 #endif
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
