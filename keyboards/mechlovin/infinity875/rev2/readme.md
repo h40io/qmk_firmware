@@ -10,11 +10,11 @@ The Infinity 87.5 is in the popular A87 form factor with Top-sided USB Type-C an
 
 Make example for this keyboard (after setting up your build environment):
 
-    make mechlovin/infinity875:default
+    make mechlovin/infinity875/rev2:default
 
 Flashing example for this keyboard:
 
-    make mechlovin/infinity875:default:flash
+    make mechlovin/infinity875/rev2:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 

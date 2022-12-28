@@ -124,3 +124,13 @@ bool rgb_matrix_indicators_kb(void) {
 
 
 #endif
+
+#if RGBLIGHT_ENABLE
+bool led_update_kb(led_t led_state) {
+    bool res = led_update_user(led_state);
+    if(res) {
+            rgblight_setrgb_at(0, 0, 0, 22);
+        }
+    return res;
+}
+#endif 

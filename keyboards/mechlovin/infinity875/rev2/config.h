@@ -19,19 +19,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
-/* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 17
- 
-/* COL2ROW, ROW2COL*/
-#define DIODE_DIRECTION ROW2COL
+/*
+ * Keyboard Matrix Assignments
+ *
+ * Change this to how you wired your keyboard
+ * COLS: AVR pins used for columns, left to right
+ * ROWS: AVR pins used for rows, top to bottom
+ * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
+ *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
+ *
+ */
+#define MATRIX_ROW_PINS { A8, A9, A10, B11, C13, C14 }
+#define MATRIX_COL_PINS { B14, B13, B12, B2, B1, B0, A7, A6, A5, A4, A3, A2, A1, A0, A15, B3, B4 }
+
+#define LED_CAPS_LOCK_PIN B10
+#define LED_PIN_ON_STATE 1
 
 #ifdef RGB_MATRIX_ENABLE
-#define RGB_MATRIX_LED_COUNT 42
-#define RGB_DISABLE_AFTER_TIMEOUT 0 // number of ticks to wait until disabling effects
-#define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
-#define RGB_MATRIX_LED_FLUSH_LIMIT 16 // limits in milliseconds how frequently an animation will update the LEDs. 16 (16ms) is equivalent to limiting to 60fps (increases keyboard responsiveness)
-#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 220 // limits maximum brightness of LEDs to 200 out of 255. If not defined maximum brightness is set to 255
+#define RGB_DI_PIN B15
 #endif
 
 
