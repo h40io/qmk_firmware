@@ -1,8 +1,5 @@
 name: Essential files modified
 
-permissions:
-  contents: write
-
 on:
   push:
     branches:
