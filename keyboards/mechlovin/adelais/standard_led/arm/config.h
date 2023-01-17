@@ -41,7 +41,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_EFFECT_RGB_TEST
 #define RGBLIGHT_EFFECT_ALTERNATING
 #define RGBLIGHT_EFFECT_TWINKLE
+//
+//#define LED_CAPS_LOCK_PIN B2
+//#define LED_SCROLL_LOCK_PIN B9
+//#define LED_NUM_LOCK_PIN C15
 
-#define LED_NUM_LOCK_PIN C15
 #define LED_CAPS_LOCK_PIN B2
+#define LED_NUM_LOCK_PIN C15
 #define LED_SCROLL_LOCK_PIN B9
+
+//B2
+//C15
+//B9
