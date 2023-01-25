@@ -15,3 +15,9 @@
  */
 
 #include "adelais.h"
+
+#ifdef RGBLIGHT_ENABLE
+void keyboard_post_init_kb(void) {
+        rgblight_sethsv_at(255, 255, 255, 0);
+   }
+   #endif
